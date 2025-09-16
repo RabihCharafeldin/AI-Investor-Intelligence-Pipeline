@@ -1,0 +1,26 @@
+paths:
+  cache_dir: data/cache
+  output_dir: data/output
+excel:
+  sheet: Master sheet
+  name_col: Name
+  country_col: Country
+  website_col: favoriteUrl
+  out_cols:
+    funding_classification: Funding Classification
+    sector: Sector
+    ticket_size_vc: Ticket size (for Venture Capital)
+    angel_type: Individual or Network (for Angel Investors)
+    note: Additional Info
+llm:
+  provider: ollama
+  model: llama3:latest
+  temperature: 0.0
+  max_tokens: 800
+network:
+  timeout: 15
+  sleep_between_requests_sec: 1.0
+  user_agent: ESCWA-Investor-Classifier/1.0 (+https://example.org)
+limits:
+  max_pages_per_site: 5
+  max_chars_for_llm: 12000

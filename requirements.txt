@@ -1,0 +1,11 @@
+pandas
+openpyxl
+requests
+beautifulsoup4
+trafilatura>=1.8.0
+duckduckgo-search>=6.2.6
+tldextract
+pydantic>=2.6
+python-dotenv
+tenacity
+PyYAML
